@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        ".venv": true
+    },
+
+    "windsurfPyright.analysis.typeCheckingMode": "basic",
+    "windsurfPyright.analysis.diagnosticSeverityOverrides": {
+        "reportOptionalSubscript": "none",
+        "reportOptionalIterable": "none",
+        "reportOptionalContextManager": "none",
+        "reportOptionalMemberAccess": "none",
+        "reportOptionalOperand": "none",
+        "reportOptionalCall": "none",
+        "reportGeneralTypeIssues": "none"
+    },
+
+    "windsurfPyright.analysis.autoImportCompletions": true,
+
+    "editor.wordWrap": "on"
+}
